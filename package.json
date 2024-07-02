@@ -1,0 +1,20 @@
+{
+  "name": "2024-ait-live-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "chat": "node --env-file=.env chat.js",
+    "search": "node --env-file=.env search.js",
+    "rag": "node --env-file=.env rag.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.2.1",
+    "langchain": "^0.2.8",
+    "openai": "^4.52.2"
+  }
+}
